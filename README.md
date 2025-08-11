@@ -1,4 +1,4 @@
-# Crop Predictor - Fullstack
+# Crop Predictor 
 
 1. Put your sklearn model as `model/model.pkl`.
 2. Start backend:
