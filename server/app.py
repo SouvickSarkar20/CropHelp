@@ -8,7 +8,7 @@ app = Flask(__name__)
 CORS(app)
 
 # Load model once on startup
-MODEL_PATH = os.environ.get("MODEL_PATH", "models\RandomForest.pkl")
+MODEL_PATH = os.environ.get("MODEL_PATH", "../models/RandomForest.pkl")
 model = load_model(MODEL_PATH)
 
 # Reasonable input ranges - same as frontend
